@@ -1,0 +1,100 @@
+{
+  "recipes": [
+    {
+      "recipe_id": "01",
+      "recipe_name": "Spaghetti Bolognese",
+      "recipe_image": "https://example.com/images/spaghetti-bolognese.jpg",
+      "short_description": "Classic Italian pasta dish with savory meat sauce.",
+      "ingredients": [
+        "500g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "400g spaghetti",
+        "200g tomato sauce",
+        "1 tsp oregano"
+      ],
+      "preparing_time": "30 minutes",
+      "calories": "600 calories"
+    },
+    {
+      "recipe_id": "02",
+      "recipe_name": "Chicken Caesar Salad",
+      "recipe_image": "https://example.com/images/chicken-caesar-salad.jpg",
+      "short_description": "Fresh salad with grilled chicken, croutons, and creamy Caesar dressing.",
+      "ingredients": [
+        "300g grilled chicken",
+        "100g romaine lettuce",
+        "50g parmesan cheese",
+        "100g croutons",
+        "3 tbsp Caesar dressing",
+        "1 boiled egg"
+      ],
+      "preparing_time": "20 minutes",
+      "calories": "400 calories"
+    },
+    {
+      "recipe_id": "03",
+      "recipe_name": "Beef Stroganoff",
+      "recipe_image": "https://example.com/images/beef-stroganoff.jpg",
+      "short_description": "Creamy beef and mushroom dish served over egg noodles.",
+      "ingredients": [
+        "500g beef sirloin",
+        "200g mushrooms",
+        "1 onion, chopped",
+        "150ml sour cream",
+        "2 tbsp flour",
+        "250g egg noodles"
+      ],
+      "preparing_time": "35 minutes",
+      "calories": "700 calories"
+    },
+    {
+      "recipe_id": "04",
+      "recipe_name": "Grilled Vegetable Skewers",
+      "recipe_image": "https://example.com/images/vegetable-skewers.jpg",
+      "short_description": "Colorful veggies grilled to perfection on skewers.",
+      "ingredients": [
+        "1 zucchini",
+        "1 bell pepper",
+        "1 red onion",
+        "100g mushrooms",
+        "2 tbsp olive oil",
+        "1 tsp Italian herbs"
+      ],
+      "preparing_time": "25 minutes",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_id": "05",
+      "recipe_name": "Teriyaki Chicken Bowl",
+      "recipe_image": "https://example.com/images/teriyaki-chicken.jpg",
+      "short_description": "Juicy chicken glazed with teriyaki sauce served over rice.",
+      "ingredients": [
+        "400g chicken breast",
+        "100ml teriyaki sauce",
+        "200g steamed rice",
+        "1 tbsp sesame seeds",
+        "100g broccoli",
+        "1 carrot, sliced"
+      ],
+      "preparing_time": "30 minutes",
+      "calories": "520 calories"
+    },
+    {
+      "recipe_id": "06",
+      "recipe_name": "Tuna Avocado Sandwich",
+      "recipe_image": "https://example.com/images/tuna-avocado-sandwich.jpg",
+      "short_description": "Healthy and filling sandwich with tuna and creamy avocado.",
+      "ingredients": [
+        "150g canned tuna",
+        "1 ripe avocado",
+        "2 slices whole grain bread",
+        "1 tbsp mayonnaise",
+        "Lettuce leaves",
+        "1 tomato, sliced"
+      ],
+      "preparing_time": "15 minutes",
+      "calories": "350 calories"
+    }
+  ]
+}
