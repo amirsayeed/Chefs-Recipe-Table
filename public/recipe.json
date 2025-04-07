@@ -3,7 +3,7 @@
     {
       "recipe_id": "01",
       "recipe_name": "Spaghetti Bolognese",
-      "recipe_image": "https://example.com/images/spaghetti-bolognese.jpg",
+      "recipe_image": "https://i.ibb.co.com/x8qGN6Jv/spaghetti-bolognese-106560-1.jpg",
       "short_description": "Classic Italian pasta dish with savory meat sauce.",
       "ingredients": [
         "500g ground beef",
@@ -19,7 +19,7 @@
     {
       "recipe_id": "02",
       "recipe_name": "Chicken Caesar Salad",
-      "recipe_image": "https://example.com/images/chicken-caesar-salad.jpg",
+      "recipe_image": "https://i.ibb.co.com/TD61xT59/Chicken-Caesar-Pasta-Salad-Key.jpg",
       "short_description": "Fresh salad with grilled chicken, croutons, and creamy Caesar dressing.",
       "ingredients": [
         "300g grilled chicken",
@@ -35,7 +35,7 @@
     {
       "recipe_id": "03",
       "recipe_name": "Beef Stroganoff",
-      "recipe_image": "https://example.com/images/beef-stroganoff.jpg",
+      "recipe_image": "https://i.ibb.co.com/7dfBZ3ZR/25202beef-stroganoff-iii-ddmfs-3x4-233-0f26fa477e9c446b970a32502468efc6.jpg",
       "short_description": "Creamy beef and mushroom dish served over egg noodles.",
       "ingredients": [
         "500g beef sirloin",
@@ -51,7 +51,7 @@
     {
       "recipe_id": "04",
       "recipe_name": "Grilled Vegetable Skewers",
-      "recipe_image": "https://example.com/images/vegetable-skewers.jpg",
+      "recipe_image": "https://i.ibb.co.com/LXx6P3rM/images-1.jpg",
       "short_description": "Colorful veggies grilled to perfection on skewers.",
       "ingredients": [
         "1 zucchini",
@@ -67,7 +67,7 @@
     {
       "recipe_id": "05",
       "recipe_name": "Teriyaki Chicken Bowl",
-      "recipe_image": "https://example.com/images/teriyaki-chicken.jpg",
+      "recipe_image": "https://i.ibb.co.com/JjTHNThC/Teriyaki-Chicken-rice-Bowls.jpg",
       "short_description": "Juicy chicken glazed with teriyaki sauce served over rice.",
       "ingredients": [
         "400g chicken breast",
@@ -83,7 +83,7 @@
     {
       "recipe_id": "06",
       "recipe_name": "Tuna Avocado Sandwich",
-      "recipe_image": "https://example.com/images/tuna-avocado-sandwich.jpg",
+      "recipe_image": "https://i.ibb.co.com/bM2kx1r2/272787-avocado-tuna-salad-DDMFS-4x3-9b7495ca719048498243c1c82d075a27.jpg",
       "short_description": "Healthy and filling sandwich with tuna and creamy avocado.",
       "ingredients": [
         "150g canned tuna",
