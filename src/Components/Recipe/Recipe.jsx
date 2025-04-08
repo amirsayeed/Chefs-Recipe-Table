@@ -1,8 +1,8 @@
 import React from 'react';
 import { CiClock1 } from "react-icons/ci";
 import { FaFire } from "react-icons/fa";
-const Recipe = ({recipe}) => {
-    const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = recipe;
+const Recipe = ({recipe,handleToCook}) => {
+    const {recipe_id, recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = recipe;
     return (
         <div className="card bg-base-100 shadow-xl rounded-2xl">
             <figure>
@@ -32,7 +32,7 @@ const Recipe = ({recipe}) => {
                     </p>
                 </div>
                 <div className="card-actions justify-start">
-                <button className="btn btn-success rounded-3xl">Want to Cook</button>
+                <button onClick={()=>handleToCook(recipe, recipe_id)} className="btn btn-success rounded-3xl">Want to Cook</button>
                 </div>
             </div>
         </div>
