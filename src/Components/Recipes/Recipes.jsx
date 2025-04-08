@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Recipe from '../Recipe/Recipe';
 import SideBar from '../SideBar/SideBar';
 
-const Recipes = ({handleToCook, toCook}) => {
+const Recipes = ({handleToCook, toCook, handleRemove}) => {
     const [recipe, setRecipe] = useState([]);
 
     useEffect(()=>{
@@ -28,7 +28,7 @@ const Recipes = ({handleToCook, toCook}) => {
                     }
                 </div>
                 <div className='w-2/5 border shadow-lg rounded-2xl'>
-                 <SideBar toCook={toCook} />
+                 <SideBar toCook={toCook} handleRemove={handleRemove} />
                 </div>
             </div>
         </div>

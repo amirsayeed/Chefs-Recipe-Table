@@ -15,6 +15,11 @@ function App() {
     }
   }
 
+  const handleRemove = id =>{
+    const remaining = toCook.filter(cook => cook.recipe_id !== id);
+    setToCook(remaining);
+  }
+
 
   return (
     <div className="max-w-7xl mx-auto">
@@ -23,7 +28,7 @@ function App() {
         <Banner/>
       </header>
       <main>
-        <Recipes handleToCook={handleToCook} toCook={toCook} />
+        <Recipes handleToCook={handleToCook} toCook={toCook} handleRemove={handleRemove} />
       </main>
     </div>
   )
