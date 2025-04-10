@@ -27,7 +27,7 @@ const Recipes = ({handleToCook, toCook, handleRemove}) => {
                         />)
                     }
                 </div>
-                <div className='w-2/5 border shadow-lg rounded-2xl'>
+                <div className='w-2/5 border-gray-500 shadow-lg rounded-2xl'>
                  <SideBar toCook={toCook} handleRemove={handleRemove} />
                 </div>
             </div>

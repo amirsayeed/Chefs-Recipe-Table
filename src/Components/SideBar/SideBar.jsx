@@ -45,7 +45,7 @@ const SideBar = ({toCook, handleRemove}) => {
             </div>
             
             </div>
-            <div className='mt-10'>
+            <div className='mt-10 p-3'>
                     <h3 className='text-xl text-center'>Currently Cooking: {cooking.length}</h3>
                     <div className='border border-gray-400 border-dashed mx-4 my-4'></div>
                     <div className='flex items-start justify-evenly text-center font-medium mb-2'>
