@@ -4,7 +4,7 @@ import { FaFire } from "react-icons/fa";
 const Recipe = ({recipe,handleToCook}) => {
     const {recipe_id, recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = recipe;
     return (
-        <div className="card bg-base-100 shadow-xl rounded-2xl">
+        <div className="card bg-base-100 shadow-xl rounded-2xl hover:scale-105">
             <figure>
                 <img
                 src={recipe_image} className='p-4 w-full h-[250px] object-fill'

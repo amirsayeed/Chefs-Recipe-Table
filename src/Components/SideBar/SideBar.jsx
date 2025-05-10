@@ -34,7 +34,7 @@ const SideBar = ({toCook, handleRemove}) => {
             </div>
             <div>
                 {
-                    toCook.map((item,idx)=><div key={idx} className='flex items-center justify-evenly text-center mb-2 bg-gray-100'>
+                    toCook.map((item,idx)=><div key={idx} className='flex items-center justify-evenly text-center mb-2 bg-gray-100 p-2'>
                         <p>{idx+1}</p>
                         <p className='max-w-28'>{item.recipe_name}</p>
                         <p>{item.preparing_time}</p>
@@ -55,7 +55,7 @@ const SideBar = ({toCook, handleRemove}) => {
                     </div>
                     <div className='mb-5'>
                         {
-                            cooking.map((item,idx)=> <div key={idx} className='flex items-center justify-around text-center mb-2 bg-gray-100'>
+                            cooking.map((item,idx)=> <div key={idx} className='flex items-center justify-around text-center mb-2 bg-gray-100 p-2'>
                                 <p>{idx+1}</p>
                                 <p className='max-w-28'>{item.recipe_name}</p>
                                 <p>{item.preparing_time}</p>
